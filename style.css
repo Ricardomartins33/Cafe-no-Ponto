@@ -1,0 +1,71 @@
+ :root{ 
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: .1rem solid rgba(255,255,255,0.3);
+      font-size: 10px;
+  }
+
+  *{ 
+
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2 linear;
+}    
+body{
+    background: var( --bg);
+}
+section {
+    padding: 3rem 2rem;
+    margin: 0;
+    max-width: 1200;}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    right: 0;
+    z-index: 99;
+    border: var(--border);}
+       
+.header-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza na horizontal */
+    gap: 20px; /* Espaço entre menu e ícones, opcional */
+    padding: 30px 0;
+    
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none; /* Remove bolinhas da lista */
+    gap: 80px; /* Espaço entre os links do menu */
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.navbar ul li a {
+
+    color: #fff;
+    
+
+    font-size: 80px;
+
+}
+
+.navbar ul li a {
+    color: #f8f4f4; /* Cor ao passar o mouse */
+}
+
+.icons {
+    display: flex;
+    gap: 20px; /* Espaço entre os ícones */
+    justify-content: center;
+    color: #fff;
+}
