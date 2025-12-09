@@ -408,3 +408,24 @@
   .footer .share img:hover {
     transform: scale(1.15);
   }
+  
+
+
+@media (max-width: 768px) {
+  .content h3 {
+    font-size: 3rem; 
+  }
+
+  .review .box-container {
+    flex-direction: column; 
+    width: 100%;
+  }
+
+  .navbar ul {
+    flex-direction: column; 
+  }
+
+  .Menu .box-container {
+    grid-template-columns: 1fr; 
+  }
+}
